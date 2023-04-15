@@ -1,9 +1,10 @@
 //ex_1 
 #include <iostream> 
+
 using namespace std;
 int main()
 {
-    setlocale(LC_ALL, "ru");
+    setlocale(LC_ALL, "Ukrainian");
     cout << "\n\tДуми мої, думи мої,\n\t Лихо мені з вами!\n\tНащо стали на папері\n\tСумними рядами?..\n\t\t\tТарас Шевченко.\n\n";
     system("pause");
     return 0;
@@ -11,6 +12,7 @@ int main()
 
 //ex_2 
 #include <iostream> 
+#include <Windows.h>
 using namespace std;
 int main() 
 {
@@ -26,9 +28,11 @@ int main()
 
 //ex_3 
 #include <iostream> 
+#include <Windows.h>
 using namespace std;
 int main()
 {
+    setlocale(LC_ALL, "Ukrainian");
     cout << "=================================================================================\n";
     cout << "О\tГ\tО\tЛ\tО\tШ\tЕ\tН\tН\tЯ\t!\n";
     cout << "=================================================================================\n";
